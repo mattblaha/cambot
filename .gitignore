@@ -1,0 +1,22 @@
+*.pyc
+*pyo
+*png
+*egg-info
+*sqlite3
+
+# from https://github.com/github/gitignore/blob/master/Python.gitignore
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+*.swp
