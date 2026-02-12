@@ -45,5 +45,5 @@ And then get a shell like this:
 $ podman run --rm -it --network=host --device=/dev/kfd --device=/dev/dri \
 --ipc=host --group-add video --cap-add=SYS_PTRACE --volume /path/to/cambot:/code \
 --volume /video/:/path/to/video\
---security-opt seccomp=unconfined opencv /bin/bash
+--security-opt seccomp=unconfined cambot /bin/bash
 ```
