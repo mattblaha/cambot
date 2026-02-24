@@ -38,7 +38,7 @@ def swap_files(file_path_1, file_path_2):
 
 
 def parse_title(title):
-    pattern = re.compile(r".*s\d+e\d+\s*-\s*([\w\s\'\"\.\&\,]*).{4}")
+    pattern = re.compile(r".*s\d+e\d+e*\d*\s*-\s*([\w\s\'\"\.\&\,]*).{4}")
     return unidecode(re.match(pattern, title).groups()[0])
 
 
